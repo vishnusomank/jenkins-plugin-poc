@@ -1,0 +1,19 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+    <f:entry title="${%Keyword}" field="keyword">
+        <f:textbox />
+    </f:entry>
+    <f:entry title="${%Tag}" field="tag">
+        <f:textbox />
+    </f:entry>
+    <f:advanced>
+        <f:entry title="${%Auto Apply}" field="useAutoApply"
+                 description="Auto Apply Policy to Kubernetes cluster">
+            <f:checkbox />
+        </f:entry>
+        <f:entry title="${%Do not persist data}" field="doNotPersist"
+                 description="Remove files created by the tool after operation completed">
+            <f:checkbox />
+        </f:entry>
+    </f:advanced>
+</j:jelly>

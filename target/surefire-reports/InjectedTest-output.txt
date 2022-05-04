@@ -1,0 +1,61 @@
+Running tests for io.jenkins.plugins:knoxautopol:1.0.0
+May 05, 2022 12:51:51 AM org.eclipse.jetty.util.log.Log initialized
+INFO: Logging initialized @938ms to org.eclipse.jetty.util.log.Slf4jLog
+May 05, 2022 12:51:52 AM org.jvnet.hudson.test.WarExploder explode
+INFO: Picking up existing exploded jenkins.war at C:\Users\vsk90\OneDrive\Desktop\AccuKnox\poc\jenkins-plugin\knoxautopol-plugin\target\jenkins-for-test
+May 05, 2022 12:51:52 AM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+WARNING: Empty contextPath
+May 05, 2022 12:51:52 AM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.4.5.v20170502
+May 05, 2022 12:51:53 AM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+May 05, 2022 12:51:53 AM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: DefaultSessionIdManager workerName=node0
+May 05, 2022 12:51:53 AM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: No SessionScavenger set, using defaults
+May 05, 2022 12:51:53 AM org.eclipse.jetty.server.session.HouseKeeper startScavenging
+INFO: Scavenging every 600000ms
+May 05, 2022 12:51:53 AM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@328572f0{/,file:///C:/Users/vsk90/OneDrive/Desktop/AccuKnox/poc/jenkins-plugin/knoxautopol-plugin/target/jenkins-for-test/,AVAILABLE}{C:\Users\vsk90\OneDrive\Desktop\AccuKnox\poc\jenkins-plugin\knoxautopol-plugin\target\jenkins-for-test}
+May 05, 2022 12:51:53 AM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@7f34a967{HTTP/1.1,[http/1.1]}{localhost:5488}
+May 05, 2022 12:51:53 AM org.eclipse.jetty.server.Server doStart
+INFO: Started @2860ms
+May 05, 2022 12:51:53 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+May 05, 2022 12:51:56 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+May 05, 2022 12:51:59 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+May 05, 2022 12:51:59 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+May 05, 2022 12:51:59 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+May 05, 2022 12:52:00 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+May 05, 2022 12:52:00 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+May 05, 2022 12:52:00 AM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.4.5.v20170502
+May 05, 2022 12:52:00 AM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: DefaultSessionIdManager workerName=node0
+May 05, 2022 12:52:00 AM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: No SessionScavenger set, using defaults
+May 05, 2022 12:52:00 AM org.eclipse.jetty.server.session.HouseKeeper startScavenging
+INFO: Scavenging every 660000ms
+May 05, 2022 12:52:00 AM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.s.ServletContextHandler@5e1218b4{/,null,AVAILABLE}
+May 05, 2022 12:52:00 AM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@21a66d45{HTTP/1.1,[http/1.1]}{0.0.0.0:5498}
+May 05, 2022 12:52:00 AM org.eclipse.jetty.server.Server doStart
+INFO: Started @10413ms
+May 05, 2022 12:52:06 AM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@7f34a967{HTTP/1.1,[http/1.1]}{localhost:0}
+May 05, 2022 12:52:06 AM org.eclipse.jetty.server.session.HouseKeeper stopScavenging
+INFO: Stopped scavenging
+May 05, 2022 12:52:06 AM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@328572f0{/,file:///C:/Users/vsk90/OneDrive/Desktop/AccuKnox/poc/jenkins-plugin/knoxautopol-plugin/target/jenkins-for-test/,UNAVAILABLE}{C:\Users\vsk90\OneDrive\Desktop\AccuKnox\poc\jenkins-plugin\knoxautopol-plugin\target\jenkins-for-test}
+May 05, 2022 12:52:06 AM jenkins.model.Jenkins cleanUp
+INFO: Stopping Jenkins
+May 05, 2022 12:52:07 AM jenkins.model.Jenkins cleanUp
+INFO: Jenkins stopped

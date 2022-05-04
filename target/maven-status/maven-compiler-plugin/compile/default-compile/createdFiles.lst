@@ -1,0 +1,7 @@
+META-INF\annotations\org.jenkinsci.Symbol
+io\jenkins\plugins\AccuKnoxCLI\KnoxAutoPol\DescriptorImpl\doCheckKeyword.stapler
+io\jenkins\plugins\AccuKnoxCLI\KnoxAutoPol$DescriptorImpl.class
+io\jenkins\plugins\AccuKnoxCLI\KnoxAutoPol.class
+META-INF\annotations\hudson.Extension.txt
+io\jenkins\plugins\AccuKnoxCLI\KnoxAutoPol.stapler
+META-INF\annotations\hudson.Extension
